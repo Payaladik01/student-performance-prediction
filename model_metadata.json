@@ -1,0 +1,242 @@
+{
+  "target_column": "G3",
+  "task": "regression",
+  "model_name": "Random Forest",
+  "features": {
+    "school": {
+      "type": "categorical",
+      "options": [
+        "GP",
+        "MS"
+      ],
+      "default": "GP"
+    },
+    "sex": {
+      "type": "categorical",
+      "options": [
+        "F",
+        "M"
+      ],
+      "default": "F"
+    },
+    "age": {
+      "type": "numeric",
+      "min": 15.0,
+      "max": 22.0,
+      "default": 17.0
+    },
+    "address": {
+      "type": "categorical",
+      "options": [
+        "U",
+        "R"
+      ],
+      "default": "U"
+    },
+    "famsize": {
+      "type": "categorical",
+      "options": [
+        "GT3",
+        "LE3"
+      ],
+      "default": "GT3"
+    },
+    "Pstatus": {
+      "type": "categorical",
+      "options": [
+        "A",
+        "T"
+      ],
+      "default": "A"
+    },
+    "Medu": {
+      "type": "numeric",
+      "min": 0.0,
+      "max": 4.0,
+      "default": 3.0
+    },
+    "Fedu": {
+      "type": "numeric",
+      "min": 0.0,
+      "max": 4.0,
+      "default": 2.0
+    },
+    "Mjob": {
+      "type": "categorical",
+      "options": [
+        "at_home",
+        "health",
+        "other",
+        "services",
+        "teacher"
+      ],
+      "default": "at_home"
+    },
+    "Fjob": {
+      "type": "categorical",
+      "options": [
+        "teacher",
+        "other",
+        "services",
+        "health",
+        "at_home"
+      ],
+      "default": "teacher"
+    },
+    "reason": {
+      "type": "categorical",
+      "options": [
+        "course",
+        "other",
+        "home",
+        "reputation"
+      ],
+      "default": "course"
+    },
+    "guardian": {
+      "type": "categorical",
+      "options": [
+        "mother",
+        "father",
+        "other"
+      ],
+      "default": "mother"
+    },
+    "traveltime": {
+      "type": "numeric",
+      "min": 1.0,
+      "max": 4.0,
+      "default": 1.0
+    },
+    "studytime": {
+      "type": "numeric",
+      "min": 1.0,
+      "max": 4.0,
+      "default": 2.0
+    },
+    "failures": {
+      "type": "numeric",
+      "min": 0.0,
+      "max": 3.0,
+      "default": 0.0
+    },
+    "schoolsup": {
+      "type": "categorical",
+      "options": [
+        "yes",
+        "no"
+      ],
+      "default": "yes"
+    },
+    "famsup": {
+      "type": "categorical",
+      "options": [
+        "no",
+        "yes"
+      ],
+      "default": "no"
+    },
+    "paid": {
+      "type": "categorical",
+      "options": [
+        "no",
+        "yes"
+      ],
+      "default": "no"
+    },
+    "activities": {
+      "type": "categorical",
+      "options": [
+        "no",
+        "yes"
+      ],
+      "default": "no"
+    },
+    "nursery": {
+      "type": "categorical",
+      "options": [
+        "yes",
+        "no"
+      ],
+      "default": "yes"
+    },
+    "higher": {
+      "type": "categorical",
+      "options": [
+        "yes",
+        "no"
+      ],
+      "default": "yes"
+    },
+    "internet": {
+      "type": "categorical",
+      "options": [
+        "no",
+        "yes"
+      ],
+      "default": "no"
+    },
+    "romantic": {
+      "type": "categorical",
+      "options": [
+        "no",
+        "yes"
+      ],
+      "default": "no"
+    },
+    "famrel": {
+      "type": "numeric",
+      "min": 1.0,
+      "max": 5.0,
+      "default": 4.0
+    },
+    "freetime": {
+      "type": "numeric",
+      "min": 1.0,
+      "max": 5.0,
+      "default": 3.0
+    },
+    "goout": {
+      "type": "numeric",
+      "min": 1.0,
+      "max": 5.0,
+      "default": 3.0
+    },
+    "Dalc": {
+      "type": "numeric",
+      "min": 1.0,
+      "max": 5.0,
+      "default": 1.0
+    },
+    "Walc": {
+      "type": "numeric",
+      "min": 1.0,
+      "max": 5.0,
+      "default": 2.0
+    },
+    "health": {
+      "type": "numeric",
+      "min": 1.0,
+      "max": 5.0,
+      "default": 4.0
+    },
+    "absences": {
+      "type": "numeric",
+      "min": 0.0,
+      "max": 75.0,
+      "default": 4.0
+    },
+    "G1": {
+      "type": "numeric",
+      "min": 3.0,
+      "max": 19.0,
+      "default": 11.0
+    },
+    "G2": {
+      "type": "numeric",
+      "min": 0.0,
+      "max": 19.0,
+      "default": 11.0
+    }
+  }
+}
